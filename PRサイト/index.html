@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菊地泰正のホームページ</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-8/js/6-1-8.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <style type="text/css">
+        ul {
+            overflow: hidden;
+            list-style: none;
+            margin: 0 auto;
+            z-index: 20;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 26px 10px 20px 10px;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0 auto;
+            font-size: 10px;
+        }
+
+        .menu {
+            z-index: 10;
+            height: auto;
+            position: fixed;
+            font-size: 1em;
+            background-color: gray;
+            font-size: 2em;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            box-sizing: border-box;
+            color: #111;
+            font-size: 5em;
+            height: 100%;
+            padding: 5%;
+            width: 100%;
+        }
+
+
+        .top {
+            text-align: center;
+            background-image: url("image/backImage.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .top_content {
+            padding: 10% 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin: 0 auto;
+            padding: 0 auto;
+            width: 100%;
+        }
+
+        p.name_content {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+        p.hobby_content {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0 auto;
+
+        }
+
+        p.learn_content {
+            margin: 0 auto;
+            padding: 0 auto;
+            width: 100%;
+            height: auto;
+
+        }
+
+        .content {
+            font-size: .6em;
+            padding-top: 0;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+        .name {
+            background-color: rgba(128, 128, 128, 0.6);
+        }
+
+        .hobby {
+            background-color: rgba(238, 238, 238, 0.6);
+        }
+
+        ul.slider {
+            margin: 0 auto;
+            padding: 0 auto;
+            list-style: none;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+        }
+
+        .slider .slick-slide {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="menu">
+        <ul>
+            <li><a href=#name>名前</a></li>
+            <li><a href=#hobby>趣味</a></li>
+            <li><a href=#learn>学んできたこと</a></li>
+        </ul>
+
+    </header>
+
+    <div class="top">
+        <h1 class="top_content">Who am I?</h1>
+    </div>
+
+    <a id="name" class="anchor">
+        <div class="name">
+            <h2>菊地泰正</h2>
+            <p class="name_content"><br>
+                <br>出身地：千葉県
+                <br>日本工学院専門学校<br>ゲームクリエイター科四年制卒
+            </p>
+
+
+        </div>
+    </a>
+
+
+    <a id="hobby" class="anchor">
+        <div class="hobby">
+            <h2>趣味</h2>
+            <p class="hobby_content">ゲーム<br></p>
+            <p class="content">下の画像のようなゲームをやっています<br></p>
+            <p>
+            <ul class="slider">
+                <li><img src="image/darksoul.jpg" alt=""></li>
+                <li><img src="image/nier.jpg" alt=""></li>
+                <li><img src="image/apex.jpg" alt=""></li>
+                <li><img src="image/rise_logo.png" alt=""></li>
+                <li><img src="image/sb.jpg" alt=""></li>
+                <li><img src="image/r6s.jpg" alt=""></li>
+            </ul>
+            </p>
+
+
+
+        </div>
+    </a>
+
+
+    <a id="learn" class="anchor">
+        <div class="name">
+            <h2>学んできたこと</h2>
+            <p class="learn_content">ゲーム制作(開発言語：C#,C++)<br></p>
+            <p class="content">ゲーム制作では2D・3Dゲームを問わず
+                <br>アクション、ホラー、シューティングを作ったことがあります。
+                <br>C#を使う場合はunityを使用し、C++の場合はDxlibを使用して作りました。
+            </p>
+            <p class="learn_content">
+                <br> チーム制作(gitでのバージョン管理など)
+            </p>
+            <p class="content">チームでゲームの仕様などを決めたり、<br>
+                進捗の確認や作業分担などのチーム活動に必要なスキルを学びました。<br>
+                また、チームメンバーとのコミュニケーションの取り方などの<br>
+                コミュニケーションスキルも学ぶことができました。</p>
+
+        </div>
+    </a>
+
+    <script>
+        'usu strict'
+        const smoothScrollTrigger = document.querySelectorAll('a[href^="#"]');
+        for (let i = 0; i < smoothScrollTrigger.length; i++) {
+            smoothScrollTrigger[i].addEventListener('click', (e) => {
+                e.preventDefault();
+                let href = smoothScrollTrigger[i].getAttribute('href');
+                let targetElement = document.getElementById(href.replace('#', ''));
+                const rect = targetElement.getBoundingClientRect().top;
+                const offset = window.pageYOffset;
+                const gap = 60;
+                const target = rect + offset - gap;
+                window.scrollTo({
+                    top: target,
+                    behavior: 'smooth',
+                });
+            });
+        }
+    </script>
+
+    <script> $('.slider').slick({
+            arrows: false,//左右の矢印はなし
+            autoplay: true,//自動的に動き出すか。
+            autoplaySpeed: 3000,//自動的に動き出す待ち時間。
+            speed: 6900,//スライドのスピード。
+            infinite: true,//スライドをループさせるかどうか。
+            pauseOnHover: false,//オンマウスでスライドを一時停止させるかどうか。
+            pauseOnFocus: false,//フォーカスした際にスライドを一時停止させるかどうか。
+            cssEase: 'linear',//動き方。
+            slidesToShow: 4,//スライドを画面に4枚見せる
+            slidesToScroll: 1,//1回のスライドで動かす要素数
+            responsive: [
+                {
+                    breakpoint: 769,//モニターの横幅が769px以下の見せ方
+                    settings: {
+                        slidesToShow: 2,//スライドを画面に2枚見せる
+                    }
+                },
+                {
+                    breakpoint: 426,//モニターの横幅が426px以下の見せ方
+                    settings: {
+                        slidesToShow: 1.5,//スライドを画面に1.5枚見せる
+                    }
+                }
+            ]
+        });</script>
+
+
+</body>
+
+</html>
